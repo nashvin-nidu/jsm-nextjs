@@ -1,14 +1,15 @@
+import Link from 'next/link';
+
 const Users = () =>{
     return (
-        <main>
+        <div>
                 <h1>Users</h1>
                 <ul>
-                    <li><link href="/dashboard/users/1">Users1</link></li>
-                    <li><link href="/dashboard/users/2">Users2</link></li>
-                    <li><link href="/dashboard/users/3">Users3</link></li>
+                    <li><Link href="/dashboard/users/1">Users1</Link></li>
+                    <li><Link href="/dashboard/users/2">Users2</Link></li>
+                    <li><Link href="/dashboard/users/3">Users3</Link></li>
                 </ul>
-        </main>
-        
+        </div>
     )
 }
 
